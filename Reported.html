@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+    <title>Staying Legal Presentation</title>
+  <script>
+  
+  </script>
+  </head>
+  
+  
+  <!--=====================================================================================================================================-->
+<!------ Reset Confirmation ----->
+<div class="modal fade" id="reset_confirmation" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" style="display:none;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+		<div class="modal-body">
+		   <h1>Reset?</h1>
+		   <hr>
+		   <p class="lead">Are you sure that you want to <strong>reset and restart</strong>?</p>
+		</div>
+		<div class="modal-footer">
+		<center>
+			<button type="button" class="btn btn-success" data-dismiss="modal" onClick="perform_exit();">Yes</button>
+			<button type="button" class="btn btn-danger" data-dismiss="modal">&nbsp;No&nbsp;</button>
+		</center>
+	  </div>
+	  </div>
+    </div>
+  </div>
+</div>
+<!--=====================================================================================================================================-->
+<!------ ERROR REPORTING ----->
+<div class="modal fade" id="error_report" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" style="display:none;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+		<div class="modal-body">
+		   <h1>Error</h1>
+		   <hr>
+		   <p class="lead" id='print_error'></p>
+		</div>
+		<div class="modal-footer">
+		<center>
+			<button type="button" class="btn btn-danger" data-dismiss="modal">&nbsp;Alright&nbsp;</button>
+		</center>
+	  </div>
+	  </div>
+    </div>
+  </div>
+</div>
+<!--=====================================================================================================================================-->
+ 
+  
+<body>
+<!---- ======================================== NAVBAR BEGINS =============================================================== ---------->  
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	  
+	  <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Staying Legal Presentation</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!---- ======================================== NAVBAR ENDS =============================================================== ---------->
+
+	<div class="container" >
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+		<div class="alert alert-success">
+			<p class="lead"><span class="glyphicon glyphicon-check"></span>&nbsp;Thank you! Your score has been reported to ISS.</p>
+		</div>
+	<hr>
+  </body>
+</html>
